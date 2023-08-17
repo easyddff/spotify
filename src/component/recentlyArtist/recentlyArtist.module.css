@@ -1,0 +1,58 @@
+section#recently_artist{
+  width: 100%;
+  height: 290px;
+  background: #E0E0E0;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+h2#recently_artist_title{
+  font: 700 18px "Noto Sans KR";
+  margin-bottom: 20px;
+}
+p#recently_artist_more{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font: 700 15px "Noto Sans KR";
+  color: #787878;
+}
+ul#recently_artist_list{
+  width: 100%;
+  height: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+ul#recently_artist_list>li{
+  width: 150px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+div.recently_artist_img{
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 90px;
+}
+div.recently_artist_img>img{
+  width: 146px;
+  height: 130px;
+}
+p.recently_artist_text1{
+  font: 700 14px "Noto Sans KR";
+}
+p.recently_artist_text2{
+  font: 500 12px "Noto Sans KR";
+  color: #838383;
+}

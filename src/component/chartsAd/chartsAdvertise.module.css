@@ -1,0 +1,30 @@
+div#sub_advertise{
+  width: 90%;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: url('/public/images/charts_image/charts_advertise.jpg') no-repeat;
+  background-position: center;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+div#sub_advertise>img{
+  margin-bottom: 10px;
+}
+p#sub_advertise_date{
+  font: 700 20px "Noto Sans KR";
+  color: white;
+  margin-left: 150px;
+}
+
+@media screen and (max-width:900px) {
+  div#sub_advertise>img{
+    width: 100%;
+  }
+  p#sub_advertise_date{
+    font-size: 15px;
+    margin-left: 45%;
+  }
+}

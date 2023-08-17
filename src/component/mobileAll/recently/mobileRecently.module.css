@@ -1,0 +1,66 @@
+section#recently{
+  width: 100%;
+  height: auto;
+  padding-left: 3%;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 10vw;
+}
+h2.subtitle{
+  font: 700 3.5vw "Noto Sans KR";
+  color: #7B7B7B;
+  margin-bottom: 20px;
+}
+p.more{
+  font: 500 3vw "Noto Sans KR";
+  color: #B6B6B6;
+  position: absolute;
+  right: 3%;
+  top: 0;
+}
+ul#recently_list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+ul#recently_list>li{
+  width: 40vw;
+  height: 30vw;
+  background: #B6B6B6;
+  border-radius: 5vw;
+  overflow: hidden;
+  position: relative;
+}
+
+ul#recently_list li img{
+  width: 40vw;
+  border-radius: 5vw;
+}
+
+p.recently_txt1{
+  width: 35vw;
+  font: 700 4vw "Noto Sans KR";
+  color: white;
+  position: absolute;
+  left: 7%;
+  bottom: 30%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+p.recently_txt2{
+  width: 35vw;
+  font: 500 3.5vw "Noto Sans KR";
+  color: #D6D6D6;
+  position: absolute;
+  left: 7%;
+  bottom: 10%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+

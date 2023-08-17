@@ -1,0 +1,93 @@
+section#genre{
+  width: 1400px;
+  height: 800px;
+  background: #F1F1F1;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  padding: 35px;
+  box-sizing: border-box;
+  position: relative;
+}
+h2#genre_title{
+  font: 700 25px "Noto Sans KR";
+  margin-bottom: 20px;
+}
+p#genre_more{
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  font: 700 15px "Noto Sans KR";
+  color: #787878;
+}
+
+ul#genre_list{
+  width: 100%;
+  height: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+ul#genre_list>li{
+  height: 25%;
+  border-bottom: solid 1px #838383;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul#genre_list>li>div>img{
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+div.genre_text{
+  width: 510px;
+  height: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+div.genre_text_in{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+p.genre_text1{
+  font: 700 18px "Noto Sans KR";
+}
+p.genre_text2{
+  font: 700 15px "Noto Sans KR";
+  color: #5b5b5b;
+}
+p.genre_text3{
+  font: 700 15px "Noto Sans KR";
+  color: #5b5b5b;
+}
+div.genre_play{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+p.genre_play1{
+  font: 700 16px/150px "Noto Sans KR";
+  color: #5b5b5b;
+}
+div.genre_play>i{
+  font-size: 50px;
+  line-height: 150px;
+  color: #5b5b5b;
+}
+
+@media screen and (max-width:1400px){
+  section#genre{
+    width: 100%;
+  }
+}

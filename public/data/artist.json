@@ -1,0 +1,365 @@
+[
+  {
+    "id":"0",
+    "category":"All",
+    "artist":"/images/artist0.jpg",
+    "artistName":"Dua Lipa",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"1",
+    "category":"All",
+    "artist":"/images/artist3.jpg",
+    "artistName":"Charlie Puth",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"2",
+    "category":"All",
+    "artist":"/images/artist5.jpg",
+    "artistName":"The Kid Laroi",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"3",
+    "category":"All",
+    "artist":"/images/artist2.jpg",
+    "artistName":"BoyWithUke",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"4",
+    "category":"All",
+    "artist":"/images/artist6.jpg",
+    "artistName":"Adele",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"5",
+    "category":"All",
+    "artist":"/images/artist7.jpg",
+    "artistName":"AVICII",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"6",
+    "category":"All",
+    "artist":"/images/artist8.jpg",
+    "artistName":"Olivia Rodrigo",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"7",
+    "category":"All",
+    "artist":"/images/artist9.jpg",
+    "artistName":"Anne-Marie",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"8",
+    "category":"All",
+    "artist":"/images/artist10.jpg",
+    "artistName":"LAUV",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"9",
+    "category":"All",
+    "artist":"/images/artist11.jpg",
+    "artistName":"Morgan Wallen",
+    "text":"Follower ·123.6k"
+  },
+  
+
+
+  {
+    "id":"10",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"a1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"11",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"b1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"12",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"c1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"13",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"d1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"14",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"e1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"15",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"f1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"16",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"g1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"17",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"h1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"18",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"i1",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"19",
+    "category":"Pop",
+    "artist":"/images/artist7.jpg",
+    "artistName":"j1",
+    "text":"Follower ·123.6k"
+  },
+
+
+
+  {
+    "id":"20",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"a2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"21",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"b2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"22",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"c2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"23",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"d2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"24",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"e2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"25",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"f2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"26",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"g2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"27",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"h2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"28",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"i2",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"29",
+    "category":"Hiphop",
+    "artist":"/images/artist8.jpg",
+    "artistName":"j2",
+    "text":"Follower ·123.6k"
+  },
+
+
+
+
+  {
+    "id":"30",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"a3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"31",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"b3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"32",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"c3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"33",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"d3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"34",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"e3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"35",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"f3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"36",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"g3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"37",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"h3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"38",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"i3",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"39",
+    "category":"EDM",
+    "artist":"/images/artist9.jpg",
+    "artistName":"j3",
+    "text":"Follower ·123.6k"
+  },
+
+
+
+  {
+    "id":"40",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"a4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"41",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"b4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"42",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"c4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"43",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"d4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"44",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"e4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"45",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"f4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"46",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"g4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"47",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"h4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"48",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"i4",
+    "text":"Follower ·123.6k"
+  },
+  {
+    "id":"49",
+    "category":"Rock",
+    "artist":"/images/artist10.jpg",
+    "artistName":"j4",
+    "text":"Follower ·123.6k"
+  }
+]

@@ -1,0 +1,246 @@
+div#mainvisual_wrap{
+  width: 1100px;
+  height: 500px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+section#mainvisual{
+  width: 100%;
+  height: 100%;
+  background: #cccccc;
+  /* border-radius: 20px; */
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div#mainvisual_list{
+  width:600px;
+  height: 500px;
+  float: left;
+  background: black;
+  padding: 20px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+div#mainvisual_img{
+  width: 500px;
+  height: 500px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+div#mainvisual_cover{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,1+11,0+34 */
+  background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,1) 11%,rgba(0,0,0,0) 20%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,1) 11%,rgba(0,0,0,0) 20%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  pointer-events: none;
+}
+div#mainvisual_img>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+p#mainvisual_name{
+  font: 500 20px "Noto Sans KR";
+  color: white;
+}
+div#mainvisual_text{
+  width: 100%;
+  height: 52%;
+  margin: 60px 50px;
+  position: relative;
+}
+
+div#textbox_wrap{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 20px;
+}
+div.textbox{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+p#main_title{
+  font: 900 70px "Noto Sans KR";
+  color: white;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+p#main_singer{
+  font: 700 20px "Noto Sans KR";
+  color: white;
+  margin-bottom: 50px;
+}
+p#main_singer>span{
+  margin-left: 10px;
+  color: #9C9C9C;
+}
+ul#main_listenlist{
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  position: absolute;
+  bottom: -100px;
+}
+li#listen{
+  width: 150px;
+  height: 60px;
+  background: #1ED760;
+  border-radius: 25px;
+  font: 700 18px/60px "Noto Sans KR";
+  color: white;
+}
+li#playlist{
+  width: 120px;
+  height: 60px;
+  background: #5A5A5A;
+  border-radius: 25px;
+  font: 700 18px/60px "Noto Sans KR";
+  color: white;
+}
+li#artist_follow{
+  width: 150px;
+  height: 60px;
+  background: #5A5A5A;
+  border-radius: 25px;
+  font: 700 18px/60px "Noto Sans KR";
+  color: white;
+}
+ul#mainDot{
+  width: 150px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 22;
+  right: 13%;
+  bottom: 20px;
+}
+ul#mainDot>li{
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 6px;
+}
+ul#mainDot>li.selected{
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background: #1ED760;
+}
+div#mainvisual_wrap>button{
+  width: 30px;
+  height: 30px;
+  background: url(/public/images/stop.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 21;
+}
+div#mainvisual_wrap>button.selected{
+  width: 30px;
+  height: 30px;
+  background: url(/public/images/play.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 21;
+}
+
+/* =================================================== */
+
+
+
+
+
+@media screen and (max-width:1400px){
+  div#mainvisual_wrap{
+    width: 100%;
+  }
+  div#mainvisual_list{
+    width: 54%;
+  }
+  div#mainvisual_img{
+    width: 46%;
+  }
+  div#mainvisual_text{
+    margin:30px 30px
+  }
+  ul#main_listenlist>li{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width:1200px) {
+  div#mainvisual_text{
+    margin:20px 20px
+  }
+  p#main_title{
+    font: 900 60px "Noto Sans KR";
+  }
+  p#main_singer{
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width:900px) {
+  /* ul#main_listenlist>li{
+    height: 45px;
+    font: 700 16px/45px "Noto Sans KR";
+  } */
+  div#mainvisual_text{
+    margin:50px 30px
+  }
+  p#main_singer{
+    margin-bottom: 60px;
+  }
+  div#mainvisual_list{
+    position: absolute;
+    z-index: 22;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  div#mainvisual_img{
+    width: 100%;
+  }
+  div#mainvisual_cover{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+  ul#mainDot{
+    left: 50%;
+    margin-left: -75px;
+  }
+
+}

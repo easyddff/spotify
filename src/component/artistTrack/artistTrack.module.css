@@ -1,0 +1,117 @@
+section#artist_track{
+  width: 100%;
+  height: 460px;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+}
+h2#artist_track_title{
+  position: absolute;
+  left: 0;
+  top: 0;
+  font: 700 18px "Noto Sans KR";
+}
+ul#artist_track_list{
+  width: 100%;
+  height: 420px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul#artist_track_list>li{
+  width: 100%;
+  height: 25%;
+  border-bottom: solid 1px #838383;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.artist_track_imtext{
+  width: 300px;
+  height: 80px;
+}
+div.artist_track_imtext>img{
+  width: 80px;
+  width: 80px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+div.artist_track_text{
+  width: 200px;
+  height: 80px;
+  float: left;
+}
+div.artist_track_text>p{
+  font: 700 16px/40px "Noto Sans KR";
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+div.artist_track_text>p>span{
+  font: 500 13px/40px "Noto Sans KR";
+  color: #5B5B5B;
+}
+
+
+div.artist_track_btn{
+  width: 320px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+p.artist_track_add{
+  font: 700 14px/80px "Noto Sans KR";
+  color: #5b5b5b;
+}
+p.artist_track_add>i{
+  font-size: 24px;
+  color: #5b5b5b;
+  margin-right: 15px;
+}
+p.artist_track_time{
+  font: 700 16px/80px "Noto Sans KR";
+  color: #5b5b5b;
+}
+div.artist_track_btn>i{
+  font-size: 30px;
+  line-height: 80px;
+  color: #5b5b5b;
+}
+
+@media screen and (max-width:1400px) {
+  div.artist_track_imtext{
+    width: 250px;
+  }
+  div.artist_track_text{
+    width: 130px;
+  }
+  div.artist_track_btn{
+    width: 280px;
+  }
+}
+@media screen and (max-width:930px){
+  div.artist_track_imtext>img{
+    margin-right: 10px;
+  }
+  div.artist_track_btn{
+    width: 125px;
+  }
+  p.artist_track_add{
+    font: 700 14px/40px "Noto Sans KR";
+  }
+  p.artist_track_time{
+    font: 700 16px/40px "Noto Sans KR";
+  }
+  div.artist_track_btn>i{
+    line-height: 40px;
+  }
+}

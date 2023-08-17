@@ -1,0 +1,87 @@
+
+section#topcharts{
+  width: 520px;
+  height: 650px;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  background: #f1f1f1;
+  border-radius: 20px;
+  position: relative;
+}
+h2#charts_title{
+  font: 700 20px "Noto Sans KR";
+  margin-bottom: 5px;
+}
+p#charts_more{
+  font: 700 15px "Noto Sans KR";
+  color: #787878;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+}
+ul#simple_list{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul#simple_list>li{
+  height: 25%;
+  border-bottom: solid 1px #838383;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+ul#simple_list>li>i{
+  font-size: 40px;
+  color: #454545;
+  line-height: 100px;
+}
+ul#simple_list>li>div>img{
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 10px;
+}
+div.simple_text{
+  width: 260px;
+}
+p.simple_rank{
+  font: 700 25px/100px "Noto Sans KR";
+  color: #848484;
+  letter-spacing: -3px;
+  float: left;
+  margin-right: 10px;
+}
+div.simple_textin{
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+p.simple_text1{
+  font: 700 17px "Noto Sans KR";
+}
+p.simple_text2{
+  font: 500 12px "Noto Sans KR";
+  color: #838383;
+} 
+p.simple_text3{
+  font: 500 12px "Noto Sans KR";
+  color: #838383;
+}
+
+@media screen and (max-width:1350px){
+  section#topcharts{
+    width:100%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,198 @@
+section#charts_detail{
+  width: 100%;
+  height: 550px;
+  position: relative;
+  background: #E0E0E0;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+div#charts_detail_in{
+  position: absolute;
+  width: 100%;
+  height: 340px;
+  padding: 30px;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+div#charts_detail_in>img{
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 50px;
+}
+div#charts_detail_text{
+  width: 60%;
+  height: 140px;
+  margin-top: 60px;
+  float: left;
+  display: block;
+}
+p#charts_detail_name{
+  font: 500 20px "Noto Sans KR";
+  color: white;
+  margin-bottom: 10px;
+}
+p#charts_detail_title{
+  font: 900 70px "Noto Sans KR";
+  color: white;
+  margin-bottom: 20px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+p#charts_detail_info{
+  font: 500 20px "Noto Sans KR";
+  color: #cccccc;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+p#charts_detail_info>span{
+  font: 700 20px "Noto Sans KR";
+  color: white;
+}
+
+
+
+div#charts_info_btn{
+  width: 380px;
+  height: 60px;
+  position: absolute;
+  left: 30px;
+  bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div#charts_info_btn>button:nth-child(1){
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background: #1ED760;
+}
+div#charts_info_btn>button:nth-child(1)>i{
+  font-size: 27px;
+  color: black;
+}
+div#charts_info_btn>button:nth-child(2){
+  width: 130px;
+  height: 60px;
+  background: #5A5A5A;
+  border-radius: 25px;
+  border: none;
+  font: 700 18px "Noto Sans KR";
+  color: white;
+}
+div#charts_info_btn>button:nth-child(3){
+  width: 150px;
+  height: 60px;
+  background: #5A5A5A;
+  border-radius: 25px;
+  border: none;
+  font: 700 18px "Noto Sans KR";
+  color: white;
+}
+
+div#charts_info{
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+div#charts_info_img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+  float: left;
+  margin-right: 25px;
+}
+div#charts_info_img>img{
+  width: 110px;
+  height: 100px;
+}
+div#charts_info_text{
+  width: 50%;
+  height: 120px;
+  float: left;
+}
+p#charts_info_text1{
+  font: 500 18px/36px "Noto Sans KR";
+  margin-top: 15px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+p#charts_info_text1>span{
+  font: 700 22px "Noto Sans KR";
+  
+}
+button#charts_info_btn{
+  width: 150px;
+  height: 60px;
+  border-radius: 25px;
+  background: #5A5A5A;
+  border: none;
+  margin-top: 30px;
+  font: 700 18px "Noto Sans KR";
+  color: white;
+}
+
+@media screen and (max-width:1400px) {
+  div#charts_detail_text{
+    width: 40%;
+  }
+}
+@media screen and (max-width:1110px) {
+  div#charts_info_btn{
+    width: 25%;
+    bottom: 130px;
+  }
+  div#charts_info_btn>button{
+    margin-bottom: 10px;
+  }
+  div#charts_info_btn>button:nth-child(2){
+    height: 45px;
+    border-radius: 15px;
+  }
+  div#charts_info_btn>button:nth-child(3){
+    height: 45px;
+    border-radius: 15px;
+  }
+  div#charts_info{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+  }
+}
+@media screen and (max-width:1000px){
+  div#charts_detail_in>img{
+    width: 150px;
+    height: 150px;
+    margin-top: 70px;
+    margin-right: 10px;
+  }
+  div#charts_detail_text{
+    margin-top: 80px;
+    width: 50%;
+  }
+  p#charts_detail_title{
+    font: 900 30px "Noto Sans KR";
+  }
+  p#charts_detail_info{
+    font: 500 16px "Noto Sans KR";
+  }
+  div#charts_info_btn>button:nth-child(2){
+    font: 700 12px "Noto Sans KR";
+  }
+  div#charts_info_btn>button:nth-child(3){
+    font: 700 12px "Noto Sans KR";
+  }
+}

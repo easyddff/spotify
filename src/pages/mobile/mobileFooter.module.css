@@ -1,0 +1,34 @@
+footer#mobileFoot{
+  width: 100%;
+  height: 11vh;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 3333;
+}
+ul#mobilesFoot_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul#mobilesFoot_list>a{
+  width: 18%;
+  height: 100%;
+}
+ul#mobilesFoot_list>a>li{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font: 700 3vw "Noto Sans KR";
+  color: white;
+}
+ul#mobilesFoot_list>a>li>i{
+  margin-top: 2vh;
+  font-size: 6vw;
+  color: white;
+  display: block;
+  margin-bottom: 1vh;
+}

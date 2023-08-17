@@ -1,0 +1,45 @@
+div#advertise{
+  width: 100%;
+  height: 300px;
+  background: url('/public/images/advertise.jpg') no-repeat;
+  background-position: center;
+  /* background-size: cover;
+  background-attachment: fixed; */
+  margin-bottom: 50px;
+}
+div#advertise_text{
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+div#advertise_text>img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+p#advertise_sub{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font: 700 25px "Noto Sans KR";
+  color: white;
+}
+p#advertise_main{
+  position: absolute;
+  right: 500px;
+  bottom: 25px;
+  font: 700 30px "Noto Sans KR";
+  color: white;
+}
+
+@media screen and (max-width:1400px){
+  div#advertise{
+    background-position: center;
+  }
+  div#advertise_text{
+    width: 100%;
+  }
+}

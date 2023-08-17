@@ -1,0 +1,71 @@
+div#main_wrap{
+  width: 1400px;
+  min-height: 1440px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+/* ========================search========================= */
+
+
+/* ========================main_in========================= */
+
+div#main_in{
+  width: 1100px;
+  min-height: 1440px;
+}
+
+/* ========================mainvisual========================= */
+
+
+
+/* ========================tob_artist========================= */
+
+
+
+/* ========================Charts========================= */
+
+div#main_charts{
+  width:1100px;
+  min-height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* ========================advertise========================= */
+
+
+/* ========================advertise========================= */
+div#visual_wrap{
+  width: 1400px;
+  min-height: 1500px;
+  margin: 0 auto;
+}
+/* ========================liveEvent========================= */
+
+
+/* ========================genre========================= */
+@media screen and (max-width:1400px){
+  
+  div#main_wrap{
+    width: 100%;
+  }
+  div#main_in{
+    width:calc(100% - 300px);
+  }
+  div#main_charts{
+    width: 100%;
+  }
+
+
+  section#mainvisual{
+    width: 100%;
+  }
+  div#visual_wrap{
+    width: 100%;
+  }
+
+}

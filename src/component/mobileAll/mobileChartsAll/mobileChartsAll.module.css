@@ -1,0 +1,116 @@
+section#mobileCharts_all{
+  width: 100%;
+  height: auto;
+  padding: 0 3% 0 3%;
+  box-sizing: border-box;
+  margin-bottom: 10vw;
+}
+ul#mobileCharts_menu{
+  width: 100%;
+  height: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul#mobileCharts_menu li{
+  width: 26vw;
+  height: 10vw;
+  border-radius: 3vw;
+  background: #D9D9D9;
+  font: 700 3.5vw/10vw "Noto Sans KR";
+  text-align: center;
+  color: #8F8F8F;
+}
+ul#mobileCharts_menu li.selected{
+  width: 26vw;
+  height: 10vw;
+  border-radius: 3vw;
+  background: #4d4d4d;
+  font: 700 3.5vw/10vw "Noto Sans KR";
+  text-align: center;
+  color: white;
+  transition: 0.3s ease-out;
+}
+
+div#mobileCharts_all_in{
+  width: 100%;
+  min-height: 70vw;
+  border-radius: 5vw;
+  background: #f1f1f1;
+  padding-bottom: 15vw;
+  box-sizing: border-box;
+  position: relative;
+}
+
+ul#mobileCharts_all_list{
+  width: 100%;
+  background: #F1F1F1;
+  border-radius: 5vw;
+  height: 122vw;
+  padding: 1vw 3vw 1vw 3vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+ul#mobileCharts_all_list>li{
+  width: 100%;
+  height: 20%;
+  padding: 2vw;
+  box-sizing: border-box;
+}
+
+p.mobileCharts_all_rank{
+  font: 700 5.5vw/20vw "Noto Sans KR";
+  color: #848484;
+  float: left;
+  margin-right: 3vw;
+}
+
+ul#mobileCharts_all_list>li>img{
+  width:20vw;
+  height: 20vw;
+  border-radius: 2vw;
+  float: left;
+  margin-right: 3vw;
+}
+
+div.mobileCharts_all_txt{
+  width: 35%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20%;
+}
+p.mobileCharts_all_txt1{
+  font: 700 4vw "Noto Sans KR";
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+p.mobileCharts_all_txt2{
+  font: 500 3.5vw "Noto Sans KR";
+  color: #8F8F8F;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+ul#mobileCharts_all_list>li>i{
+  font-size: 6vw;
+  line-height: 20vw;
+}
+
+button#mobileCharts_all_more{
+  width: 10%;
+  height: 10vw;
+  position: absolute;
+  left: 50%;
+  bottom: 3vw;
+  margin-left: -5%;
+}
+button#mobileCharts_all_more>img{
+  width: 15vw;
+
+  -webkit-transform:rotate(90deg);
+}

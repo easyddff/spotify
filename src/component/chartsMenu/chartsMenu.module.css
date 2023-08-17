@@ -1,0 +1,29 @@
+div#charts_menu{
+  width: 100%;
+  height: 600px;
+  background: #E0E0E0;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+ul#charts_list{
+  width: 100%;
+  height: 100px;
+  margin-top: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-content: center; */
+}
+ul#charts_list>li>a{
+  font: 700 14px/100px "Noto Sans KR";
+  color: #7b7b7b;
+}
+ul#charts_list>li.selected>a{
+  font: 700 20px/100px "Noto Sans KR";
+  color: #1ED760;
+  transition: 0.2s ease-out;
+}

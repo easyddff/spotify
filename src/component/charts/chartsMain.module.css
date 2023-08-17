@@ -1,0 +1,145 @@
+section#sub_main{
+  width: 1100px;
+  height: 500px;
+  background: url('/public/images/charts_image/charts_main0.jpg') no-repeat;
+  border-radius: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+div#submain_list{
+  width:50%;
+  height: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 16%;
+}
+
+p#subvisual_name{
+  font: 500 20px "Noto Sans KR";
+  color: white;
+}
+div#subvisual_text{
+  width: 90%;
+  height: 52%;
+  margin: 70px 50px;
+}
+div.sub_textbox{
+  width: 100%;
+  height: 100%;
+}
+p#sub_title{
+  font: 900 80px "Noto Sans KR";
+  color: white;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+p#sub_singer{
+  font: 700 20px "Noto Sans KR";
+  color: white;
+  margin-bottom: 50px;
+}
+p#sub_singer>span{
+  margin-left: 10px;
+  color: #9C9C9C;
+}
+ul#sub_listenlist{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+ul#sub_listenlist>li{
+  margin-bottom: 15px;
+}
+li#sub_listen{
+  width: 150px;
+  height: 60px;
+  background: #1ED760;
+  border-radius: 25px;
+  font: 700 18px/60px "Noto Sans KR";
+  color: white;
+}
+li#sub_playlist{
+  width: 120px;
+  height: 60px;
+  background: #5A5A5A;
+  border-radius: 25px;
+  font: 700 18px/60px "Noto Sans KR";
+  color: white;
+}
+li#sub_artist_follow{
+  width: 150px;
+  height: 60px;
+  background: #5A5A5A;
+  border-radius: 25px;
+  font: 700 18px/60px "Noto Sans KR";
+  color: white;
+}
+div#sub_main_img{
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  float: left;
+  margin-top: 70px;
+  position: relative;
+}
+div#sub_main_img>i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+  font-size: 60px;
+  color: white;
+}
+
+
+
+@media screen and (max-width:1400px) {
+  section#sub_main{
+    width: 100%;
+  }
+  div#subvisual_text{
+    margin: 30px 30px;
+  }
+  div#submain_list{
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width:1000px) {
+  div#subvisual_text{
+    margin: 10px 20px;
+  }
+  div#submain_list{
+    padding: 10px;
+  }
+  div.sub_textbox{
+    width: 100%;
+    height: 80%;
+  }
+  div#submain_list{
+    margin-right: 4%;
+  }
+  div#sub_main_img{
+    width: 200px;
+  }
+  p#sub_title{
+    font: 900 60px "Noto Sans KR";
+    letter-spacing: 0;
+  }
+  p#sub_title{
+    margin-bottom: 10px;
+  }
+  p#sub_singer{
+    margin-bottom: 10px;
+  }
+}

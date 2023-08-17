@@ -1,0 +1,35 @@
+div#mobile_advertise{
+  width: 100%;
+  height: 40vw;
+  background: rgb(0,0,0); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(0,0,0,1) 0%, rgba(43,160,111,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,1) 0%,rgba(43,160,111,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(43,160,111,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#2ba06f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-radius: 20px;
+  position: relative;
+}
+div#mobile_advertise>img{
+  width: 30vw;
+  position: absolute;
+  left: 5vw;
+  top: 16vw;
+}
+div#mobile_advertise_txt{
+  width: 45vw;
+  height: 30px;
+  position: absolute;
+  right: 3vw;
+  top: 8vw;
+}
+p#mobile_advertise_txt1{
+  font: 500 4vw "Noto Sans KR";
+  color: white;
+  margin-bottom: 15px;
+}
+p#mobile_advertise_txt2{
+  text-align: center;
+  font: 400 3vw "Noto Sans KR";
+  color: white;
+  line-height: 20px;
+}

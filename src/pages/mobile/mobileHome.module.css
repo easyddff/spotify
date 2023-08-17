@@ -1,0 +1,139 @@
+div#mobileHome_wrap{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+section#mobileMain{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 75vw;
+}
+section#mobileMain>h2{
+  margin-left: 3%;
+}
+h2.subtitle{
+  font: 700 3.5vw "Noto Sans KR";
+  color: #7B7B7B;
+  margin-bottom: 20px;
+}
+p.more{
+  font: 500 3vw "Noto Sans KR";
+  color: #B6B6B6;
+  position: absolute;
+  right: 3%;
+  top: 0;
+} 
+ul#mobileMain_list{
+  position: absolute;
+  left: -25%;
+  width: 250%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul#mobileMain_list>li>img{
+  width: 40vw;
+  margin-top: 30px;
+}
+ul#mobileMain_list>li:nth-child(2)>img{
+  width: 50vw;
+  margin-top: 10px;
+}
+
+
+
+
+
+/* ================================================= */
+section#foryourmix{
+  width: 100%;
+  height: auto;
+  padding: 0 3% 0 3%;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 10vw;
+}
+ul#foryourmix_list{
+  width: 100%;
+  height: 50vw;
+  border-radius: 5vw;
+  background: #F1F1F1;
+  padding: 3%;
+  box-sizing: border-box;
+}
+ul#foryourmix_list>li{
+  border-radius: 4vw;
+  overflow: hidden;
+  position: relative;
+}
+ul#foryourmix_list>li:nth-child(1){
+  width: 66%;
+  height: 100%;
+  float: left;
+  margin-right: 4%;
+  background: url(/public/images/mobile/yourmix0.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ul#foryourmix_list>li:nth-child(2){
+  width: 30%;
+  height: 46%;
+  float: left;
+  margin-bottom: 4%;
+  background: url(/public/images/mobile/yourmix1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ul#foryourmix_list>li:nth-child(3){
+  width: 30%;
+  height: 46%;
+  float: left;
+  background: url(/public/images/mobile/yourmix2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+p#dailymix{
+  font: 700 4vw "Noto Sans KR";
+  color: white;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+p#dailymix_list{
+  width: 70%;
+  font: 500 3vw "Noto Sans KR";
+  color: #C2C2C2;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+p.dailymix_txt1{
+  font: 500 3.5vw "Noto Sans KR";
+  color: white;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+/* ================================================== */
+
+
+section#mobileMain_advertise{
+  width: 100%;
+  height: auto;
+  padding: 0 3% 0 3%;
+  box-sizing: border-box;
+  margin-bottom: 10vw;
+}
+
+div#empty{
+  width: 100%;
+  height: 20vw;
+}

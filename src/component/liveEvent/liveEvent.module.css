@@ -1,0 +1,132 @@
+section#live{
+  width: 1400px;
+  min-height: 600px;
+  background: #F1F1F1;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+h2#live_title{
+  font: 700 25px "Noto Sans KR";
+  margin-bottom: 35px;
+}
+p#live_more{
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  font: 700 15px "Noto Sans KR";
+  color: #787878;
+}
+ul#live_list{
+  width: 100%;
+  min-height: 450px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+}
+ul#live_list>li{
+  position: relative;
+  width: 350px;
+}
+ul#live_list>li>img{
+  border-radius: 20px;
+}
+ul#live_list>li:nth-child(1){
+  width: 500px;
+  height: 450px;
+  grid-row: 1/3;
+}
+div.live_date{
+  width: 80px;
+  height: 36px;
+  border-radius: 10px;
+  text-align: center;
+  background: #2E2E2E;
+  font: 700 15px/36px "Noto Sans KR";
+  color: white;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+div.live_text{
+  width: 210px;
+  height: 70px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+p.live_text1{
+  font: 500 15px "Noto Sans KR";
+  color: #b7b7b7;
+}
+p.live_text2{
+  font: 500 20px "Noto Sans KR";
+  color: white;
+}
+p.live_text3{
+  font: 500 15px "Noto Sans KR";
+  color: #b7b7b7;
+}
+ul#live_list>li:nth-child(1)>div.live_date{
+  width: 120px;
+  height: 50px;
+  font: 700 20px/50px "Noto Sans KR";
+}
+ul#live_list>li:nth-child(1)>div.live_text{
+  width: 340px;
+  height: 110px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul#live_list>li:nth-child(1)>div>p.live_text1{
+  font: 500 20px "Noto Sans KR";
+  color: #b7b7b7;
+}
+ul#live_list>li:nth-child(1)>div>p.live_text2{
+  font: 500 32px "Noto Sans KR";
+  color: white;
+}
+ul#live_list>li:nth-child(1)>div>p.live_text3{
+  font: 500 20px "Noto Sans KR";
+  color: #b7b7b7;
+}
+
+@media screen and (max-width:1400px) {
+  section#live{
+    width: 100%;
+  }
+  
+  
+}
+@media screen and (max-width:1400px) {
+  section#live{
+    padding: 30px 15px;
+  }
+  ul#live_list{
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 30px;
+  }
+  ul#live_list>li{
+    width: 100%;
+  }
+  ul#live_list>li>img{
+    width: 100%;
+  }
+  ul#live_list>li:nth-child(1){
+    width: 100%;
+    height: 300px;
+    grid-column: 1/3;
+  }
+  ul#live_list>li:nth-child(1)>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
