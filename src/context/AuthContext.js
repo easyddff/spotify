@@ -5,6 +5,7 @@ import { login, logout, onUserStateChange } from "../api/firebase"; // firebase.
 const AuthContext = createContext();
 
 export function AuthContextProvider({ children }) {
+  //로그인은 모든페이지에서 유지되어야한다.
 
   const [user, setUser] = useState(); // 사용자 로그인 상태관리 
 
@@ -21,6 +22,7 @@ export function AuthContextProvider({ children }) {
       {children}
     </AuthContext.Provider>
   );
+  //children props적용
 }
 
 export function useAuthContext() {

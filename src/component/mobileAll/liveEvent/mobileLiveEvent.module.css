@@ -19,40 +19,47 @@ p.more{
   top: 0;
 }
 ul#mobile_live_list{
-  width: 225%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-ul#mobile_live_list>li{
+ul#mobile_live_list li{
   width: 40vw;
   height: 40vw;
   border-radius: 3vw;
   padding: 2vw;
   box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
 }
-ul#mobile_live_list>li:nth-child(1){
+/* ul#mobile_live_list li img{
+  width: 40vw;
+  height: 40vw;
+} */
+
+ul#mobile_live_list :nth-child(1) li{
   background: url('/public/images/live_main.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
-ul#mobile_live_list>li:nth-child(2){
+ul#mobile_live_list :nth-child(2) li{
   background: url('/public/images/live_sub0.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
-ul#mobile_live_list>li:nth-child(3){
+ul#mobile_live_list :nth-child(3) li{
   background: url('/public/images/live_sub1.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
-ul#mobile_live_list>li:nth-child(4){
+ul#mobile_live_list :nth-child(4) li{
   background: url('/public/images/live_sub2.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
-ul#mobile_live_list>li:nth-child(5){
+ul#mobile_live_list :nth-child(5) li{
   background: url('/public/images/live_sub3.jpg') no-repeat;
   background-size: cover;
   background-position: center;

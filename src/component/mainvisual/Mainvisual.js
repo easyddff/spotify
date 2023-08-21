@@ -161,11 +161,11 @@ export default function Mainvisual() {
 
   return (
     
-    <div id={styles.mainvisual_wrap}>
+    <section id={styles.mainvisual_wrap}>
+      <h2 className='hidden'>Main Visual</h2>
       {
         txt.map((item)=>(
-          <section key={item.index} id={styles.mainvisual} ref={(el)=>(mainImg.current[item.index]=el)}>
-            <h2 className='hidden'>Main Visual</h2>
+          <div key={item.index} id={styles.mainvisual} ref={(el)=>(mainImg.current[item.index]=el)}>
             <div id={styles.mainvisual_list}>
               <p id={styles.mainvisual_name}>Trending New Hits</p>
               <div id={styles.mainvisual_text}>
@@ -186,7 +186,7 @@ export default function Mainvisual() {
               <div id={styles.mainvisual_cover}></div>
                   <img src={item.shot}/>
             </div>
-          </section>
+          </div>
         ))
       }
       <ul id={styles.mainDot}>
@@ -207,6 +207,6 @@ export default function Mainvisual() {
       <button onClick={()=>{
         viewPlay()
       }} ref={btn}></button>
-    </div>
+    </section>
   )
 }

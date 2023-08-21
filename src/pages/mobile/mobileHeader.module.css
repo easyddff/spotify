@@ -41,7 +41,7 @@ nav#profile_menu_wrap{
   left: 0;
   top: 0;
   z-index: 9999;  
-  /* overflow: scroll; */
+  overflow: scroll;
   background: white;
 }
 div#profile_menu{

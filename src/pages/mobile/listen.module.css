@@ -27,10 +27,12 @@ section#listen_all{
   min-height: 50vw;
   position: relative;
   text-align: center;
+  padding: 0 10% 0 10%;
+  box-sizing: border-box;
 }
 div#listen_img{
   width: 100%;
-  height: 90vw;
+  height: 86vw;
   position: relative;
 }
 div#listen_img>img{
@@ -44,5 +46,47 @@ div#listen_img>img{
 }
 h2#listen_title{
   font:700 7vw "Noto Sans KR";
+  color: white;
+  margin-bottom: 2vw;
+}
+p#listen_subtitle{
+  font: 500 4vw "Noto Sans KR";
+  color: #DDDDDD;
+  margin-bottom: 5vw;
+}
+div#bar{
+  width: 100%;
+  height: 2vw;
+  background: #B9B9B9;
+  border-radius: 2vw;
+  margin-bottom: 2vw;
+}
+div#barin{
+  width: 40%;
+  height: 100%;
+  border-radius: 2vw;
+  background: white;
+}
+ul#bar_time{
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5vw;
+}
+ul#bar_time>li{
+  font: 500 3.5vw "Noto Sans KR";
+  color: white;
+}
+ul#music_playAll{
+  width: 100%;
+  height: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul#music_playAll>li>i{
+  font-size: 8vw;
   color: white;
 }

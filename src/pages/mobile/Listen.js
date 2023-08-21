@@ -38,9 +38,25 @@ export default function Listen() {
               <img src={chartsInfo?.shot}/>
             </div>
             <h2 id={styles.listen_title}>{chartsInfo?.name1}</h2>
+            <p id={styles.listen_subtitle}>{chartsInfo?.name2}</p>
+            <div id={styles.bar}>
+              <div id={styles.barin}></div>
+            </div>
+            <ul id={styles.bar_time}>
+              <li>01:11</li>
+              <li>{chartsInfo?.time}</li>
+            </ul>
+            <ul id={styles.music_playAll}>
+              <li><i className="fa-solid fa-shuffle"/></li>
+              <li><i className="fa-solid fa-backward-step"/></li>
+              <li><i className="fa-sharp fa-solid fa-circle-play"/></li>
+              <li><i className="fa-solid fa-forward-step"/></li>
+              <li><i className="fa-solid fa-repeat"/></li>
+            </ul>
           </section>
         
       }
+      
     </div>
   )
 }

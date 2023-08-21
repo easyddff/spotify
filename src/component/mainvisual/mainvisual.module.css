@@ -1,4 +1,4 @@
-div#mainvisual_wrap{
+section#mainvisual_wrap{
   width: 1100px;
   height: 500px;
   margin-bottom: 20px;
@@ -7,7 +7,7 @@ div#mainvisual_wrap{
   border-radius: 20px;
 }
 
-section#mainvisual{
+div#mainvisual{
   width: 100%;
   height: 100%;
   background: #cccccc;
@@ -153,7 +153,7 @@ ul#mainDot>li.selected{
   border-radius: 6px;
   background: #1ED760;
 }
-div#mainvisual_wrap>button{
+section#mainvisual_wrap>button{
   width: 30px;
   height: 30px;
   background: url(/public/images/stop.png) no-repeat;
@@ -166,7 +166,7 @@ div#mainvisual_wrap>button{
   bottom: 20px;
   z-index: 21;
 }
-div#mainvisual_wrap>button.selected{
+section#mainvisual_wrap>button.selected{
   width: 30px;
   height: 30px;
   background: url(/public/images/play.png) no-repeat;
