@@ -110,6 +110,9 @@ div#profile_detail_txt{
   height: 12vw;
   float: left;
 }
+div#profile_detail>img{
+  width: 12vw;
+}
 p#profile_detail_id{
   font: 700 4vw "Noto Sans KR";
   margin-bottom: 0.5vw;

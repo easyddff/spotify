@@ -187,7 +187,7 @@ section#mainvisual_wrap>button.selected{
 
 
 @media screen and (max-width:1400px){
-  div#mainvisual_wrap{
+  section#mainvisual_wrap{
     width: 100%;
   }
   div#mainvisual_list{

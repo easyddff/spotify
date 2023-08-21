@@ -36,17 +36,10 @@ ul#mobileMain_list{
   flex-direction: row;
   justify-content: space-around;
 }
-/* ul#mobileMain_list li{
-  width: 45vw;
-} */
 ul#mobileMain_list li img{
   width: 50vw;
   margin-top: 3vw;
 }
-/* ul#mobileMain_list>li:nth-child(2)>img{
-  width: 50vw;
-  margin-top: 10px;
-} */
 
 
 
