@@ -36,7 +36,7 @@ export default function MobileNewTrends() {
 
   return (
     <section id={styles.mobileMainCharts}>
-      <h2 className={styles.subtitle}>New Trends</h2>
+      <h2 className={styles.subtitle}>Your Trends</h2>
       <p className={styles.more}>More</p>
       <ul id={styles.mobileMainCharts_list}>
         {

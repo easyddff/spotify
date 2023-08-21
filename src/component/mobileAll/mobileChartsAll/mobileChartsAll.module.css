@@ -108,9 +108,12 @@ button#mobileCharts_all_more{
   left: 50%;
   bottom: 3vw;
   margin-left: -5%;
+  border: none;
 }
 button#mobileCharts_all_more>img{
   width: 15vw;
-
+  position: absolute;
+  left: -2.5vw;
+  bottom: -3vw;
   -webkit-transform:rotate(90deg);
 }

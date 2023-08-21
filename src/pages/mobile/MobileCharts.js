@@ -2,6 +2,9 @@ import React from 'react'
 import styles from './mobileCharts.module.css'
 import useProducts from '../../hooks/useProducts'
 import MobileChartsAll from '../../component/mobileAll/mobileChartsAll/MobileChartsAll'
+import MobileAdvertise from '../../component/mobileAdvertise/MobileAdvertise'
+import HotMovie from '../../component/mobileAll/hotMovie/HotMovie'
+import MobileNewTrends from '../../component/mobileAll/mobileMainCharts/MobileNewTrends'
 
 export default function MobileCharts() {
 
@@ -25,6 +28,15 @@ export default function MobileCharts() {
       </section>
 
       <MobileChartsAll/>
+
+      <div id={styles.advertise_wrap}>
+        <MobileAdvertise/>
+      </div>
+
+      <HotMovie/>
+
+      <MobileNewTrends/>
+      
       
       <div id={styles.empty}></div>
     </div>

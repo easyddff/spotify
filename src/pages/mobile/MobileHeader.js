@@ -68,9 +68,9 @@ export default function MobileHeader() {
     gsap.to(menuAll.current,{left:0, duration:0.5, ease:'power1.out'})
   },[])
   const menuClose=useCallback(()=>{
+    gsap.set('body,html',{overflow:'visible'})
     gsap.to(menuAll.current,{left:'100vw', duration:0.5, ease:'power2.out',onComplete:()=>{
       menuAll.current.style.display='none'
-      gsap.set('body.html',{overflow:'visible'})
     }})
   },[])
 

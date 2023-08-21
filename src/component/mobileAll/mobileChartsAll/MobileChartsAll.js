@@ -83,7 +83,7 @@ export default function MobileChartsAll() {
                   navigate(`/mobileCharts/${item.name1}`)
                 }}
                 >
-                  <p className={styles.mobileCharts_all_rank}>01</p>
+                  <p className={styles.mobileCharts_all_rank}>{item.rank}</p>
                   <img src={item.shot}/>
                   <div className={styles.mobileCharts_all_txt}>
                     <p className={styles.mobileCharts_all_txt1}>{item.name1}</p>

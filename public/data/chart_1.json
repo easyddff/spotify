@@ -13,7 +13,8 @@
         "artist":"/images/artist0.jpg",
         "artistName":"Dua Lipa",
         "recentlyShot":"/images/charts_image/recently0.jpg",
-        "recentlyName":"Dont' Start Now"
+        "recentlyName":"Dont' Start Now",
+        "rank":"01"
       },
       "002":{
         "id":"002",
@@ -27,7 +28,8 @@
         "artist":"/images/artist3.jpg",
         "artistName":"Charlie Puth",
         "recentlyShot":"/images/charts_image/recently1.jpg",
-        "recentlyName":"We Don't Talk Anymore"
+        "recentlyName":"We Don't Talk Anymore",
+        "rank":"02"
       },
       "003":{
         "id":"003",
@@ -41,7 +43,8 @@
         "artist":"/images/artist5.jpg",
         "artistName":"The Kid Laroi",
         "recentlyShot":"/images/charts_image/recently2.jpg",
-        "recentlyName":"Thousand Miles"
+        "recentlyName":"Thousand Miles",
+        "rank":"03"
       },
       "004":{
         "id":"004",
@@ -55,7 +58,8 @@
         "artist":"/images/artist2.jpg",
         "artistName":"BoyWithUke",
         "recentlyShot":"/images/charts_image/recently3.jpg",
-        "recentlyName":"Loafers"
+        "recentlyName":"Loafers",
+        "rank":"04"
       },
       "005":{
         "id":"005",
@@ -69,7 +73,8 @@
         "artist":"/images/artist6.jpg",
         "artistName":"Adele",
         "recentlyShot":"/images/charts_image/recently4.jpg",
-        "recentlyName":"Someone Like You"
+        "recentlyName":"Someone Like You",
+        "rank":"05"
       },
       "006":{
         "id":"006",
@@ -83,7 +88,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"AVICII",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"06"
       },
       "007":{
         "id":"007",
@@ -97,7 +103,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"Olivia Rodrigo",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"07"
       },
       "008":{
         "id":"008",
@@ -111,7 +118,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"Anne-Marie",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"08"
       },
       "009":{
         "id":"009",
@@ -125,7 +133,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"LAUV",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"09"
       },
       "010":{
         "id":"010",
@@ -139,7 +148,8 @@
         "artist":"/images/artist11.jpg",
         "artistName":"Morgan Wallen",
         "recentlyShot":"/images/charts_image/recently9.jpg",
-        "recentlyName":"This Bar"
+        "recentlyName":"This Bar",
+        "rank":"10"
       },
       
     
@@ -156,7 +166,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"a1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"01"
       },
       "012":{
         "id":"012",
@@ -170,7 +181,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"b1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"02"
       },
       "013":{
         "id":"013",
@@ -184,7 +196,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"c1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"03"
       },
       "014":{
         "id":"014",
@@ -198,7 +211,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"d1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"04"
       },
       "015":{
         "id":"015",
@@ -212,7 +226,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"e1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"05"
       },
       "016":{
         "id":"016",
@@ -226,7 +241,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"f1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"06"
       },
       "017":{
         "id":"017",
@@ -240,7 +256,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"g1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"07"
       },
       "018":{
         "id":"018",
@@ -254,7 +271,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"h1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"08"
       },
       "019":{
         "id":"019",
@@ -268,7 +286,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"i1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"09"
       },
       "020":{
         "id":"020",
@@ -282,7 +301,8 @@
         "artist":"/images/artist7.jpg",
         "artistName":"j1",
         "recentlyShot":"/images/charts_image/recently5.jpg",
-        "recentlyName":"LEVELS"
+        "recentlyName":"LEVELS",
+        "rank":"10"
       },
     
     
@@ -299,7 +319,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"a2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"01"
       },
       "022":{
         "id":"022",
@@ -313,7 +334,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"b2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"02"
       },
       "023":{
         "id":"023",
@@ -327,7 +349,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"c2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"03"
       },
       "024":{
         "id":"024",
@@ -341,7 +364,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"d2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"04"
       },
       "025":{
         "id":"025",
@@ -355,7 +379,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"e2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"05"
       },
       "026":{
         "id":"026",
@@ -369,7 +394,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"f2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"06"
       },
       "027":{
         "id":"027",
@@ -383,7 +409,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"g2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"07"
       },
       "028":{
         "id":"028",
@@ -397,7 +424,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"h2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"08"
       },
       "029":{
         "id":"029",
@@ -411,7 +439,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"i2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"09"
       },
       "030":{
         "id":"030",
@@ -425,7 +454,8 @@
         "artist":"/images/artist8.jpg",
         "artistName":"j2",
         "recentlyShot":"/images/charts_image/recently6.jpg",
-        "recentlyName":"Sour"
+        "recentlyName":"Sour",
+        "rank":"10"
       },
     
     
@@ -443,7 +473,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"a3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"01"
       },
       "032":{
         "id":"032",
@@ -457,7 +488,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"b3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"02"
       },
       "033":{
         "id":"033",
@@ -471,7 +503,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"c3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"03"
       },
       "034":{
         "id":"034",
@@ -485,7 +518,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"d3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"04"
       },
       "035":{
         "id":"035",
@@ -499,7 +533,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"e3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"05"
       },
       "036":{
         "id":"036",
@@ -513,7 +548,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"f3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"06"
       },
       "037":{
         "id":"037",
@@ -527,7 +563,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"g3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"07"
       },
       "038":{
         "id":"038",
@@ -541,7 +578,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"h3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"08"
       },
       "039":{
         "id":"039",
@@ -555,7 +593,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"i3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"09"
       },
       "040":{
         "id":"040",
@@ -569,7 +608,8 @@
         "artist":"/images/artist9.jpg",
         "artistName":"j3",
         "recentlyShot":"/images/charts_image/recently7.jpg",
-        "recentlyName":"FRIENDS"
+        "recentlyName":"FRIENDS",
+        "rank":"10"
       },
     
     
@@ -586,7 +626,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"a4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"01"
       },
       "042":{
         "id":"042",
@@ -600,7 +641,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"b4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"02"
       },
       "043":{
         "id":"043",
@@ -614,7 +656,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"c4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"03"
       },
       "044":{
         "id":"044",
@@ -628,7 +671,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"d4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"04"
       },
       "045":{
         "id":"045",
@@ -642,7 +686,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"e4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"05"
       },
       "046":{
         "id":"046",
@@ -656,7 +701,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"f4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"06"
       },
       "047":{
         "id":"047",
@@ -670,7 +716,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"g4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"07"
       },
       "048":{
         "id":"048",
@@ -684,7 +731,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"h4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"08"
       },
       "049":{
         "id":"049",
@@ -698,7 +746,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"i4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"09"
       },
       "050":{
         "id":"050",
@@ -712,7 +761,8 @@
         "artist":"/images/artist10.jpg",
         "artistName":"j4",
         "recentlyShot":"/images/charts_image/recently8.jpg",
-        "recentlyName":"The Story Never Ends"
+        "recentlyName":"The Story Never Ends",
+        "rank":"10"
       }
     
   }

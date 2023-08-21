@@ -40,8 +40,8 @@ nav#profile_menu_wrap{
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 22;  
-  overflow: scroll;
+  z-index: 9999;  
+  /* overflow: scroll; */
   background: white;
 }
 div#profile_menu{
