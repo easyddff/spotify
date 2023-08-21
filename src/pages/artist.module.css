@@ -40,6 +40,7 @@ ul#artist_foryou_list{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  overflow: hidden;
 }
 ul#artist_foryou_list>li{
   width: 180px;
@@ -130,6 +131,7 @@ ul#artist_all_list{
 ul#artist_all_list>li{
   width: 230px;
   height: 320px;
+  cursor: pointer;
 }
 div.artist_all_img{
   width: 230px;
@@ -152,4 +154,36 @@ p.artist_all_text2{
   color: #838383;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width:1400px){
+  div#artist_wrap{
+    width: 100%;
+  }
+  div#artist_main_wrap{
+    width:calc(100% - 300px);
+  }
+  section#artist_foryou{
+    width: 100%;
+  }
+
+  section#artist_all{
+    width: 100%;
+  }
+  div#artist_all_menu{
+    width: 100%;
+  }
+}
+@media screen and (max-width:850px){
+  ul#artist_all_list>li{
+    width: 150px;
+  }
+  div.artist_all_img{
+    width: 150px;
+    height: 130px;
+  }
+  div.artist_all_img>img{
+    width: 150px;
+    height: 130px;
+  }
 }
