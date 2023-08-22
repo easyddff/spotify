@@ -117,7 +117,7 @@ export default function MobileHeader() {
                   
                   //let activeIndex= 
                   setOpenSub(item.index === openSub ? '' : item.index)
-                
+                  
                 }
               }
                 >
@@ -131,7 +131,7 @@ export default function MobileHeader() {
                       <ul className={styles.profile_submenu_list}>
                         {
                           item.subList.map((subitem)=>(
-                            <li key={subitem.index} >{subitem.name}</li>
+                            <li key={subitem.index}>{subitem.name}</li>
                           ))
                         }
                       </ul>

@@ -93,7 +93,6 @@ export default function Artist() {
                     ()=>{
                       navigate(`/artist/${item.artistName}`)
                     }
-                    
                   }>
                     <div className={styles.artist_all_img}>
                       <img src={item.artist}/>

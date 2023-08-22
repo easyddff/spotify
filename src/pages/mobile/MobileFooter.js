@@ -21,7 +21,7 @@ export default function MobileFooter() {
       index:2,
       txt:'Library',
       icon:'fa-regular fa-copy',
-      path:'/'
+      path:'/mobileLibrary'
     },
     {
       index:3,

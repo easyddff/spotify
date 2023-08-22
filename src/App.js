@@ -19,6 +19,8 @@ import MobileCharts from "./pages/mobile/MobileCharts";
 import Listen from "./pages/mobile/Listen";
 import { AuthContextProvider } from "./context/AuthContext";
 import MobileSearch from "./pages/mobile/MobileSearch";
+import MobileLibrary from "./pages/mobile/MobileLibrary";
+import MobileSetting from "./pages/mobile/MobileSetting";
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
           {index:true, element:<MobileHome/>},
           {path:'/mobileSearch', element:<MobileSearch/>},
           {path:'/mobileCharts', element:<MobileCharts/>},
+          {path:'/mobileLibrary', element:<MobileLibrary/>},
+          {path:'/mobileSetting', element:<MobileSetting/>},
           {path:'/mobileCharts/:listen', element:<Listen/>},
         ]
       }

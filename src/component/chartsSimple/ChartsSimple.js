@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './chartsSimple.module.css'
-import { Link } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
+import useProducts from '../../hooks/useProducts'
 
 export default function Charts() {
 
@@ -46,7 +47,7 @@ export default function Charts() {
       <ul id={styles.simple_list}>
         {
           rank.map((item)=>(
-            <li key={item.index}>
+            <li key={item.id}>
               <div className={styles.simple_text}>
                 <p className={styles.simple_rank}>{item.num}</p>
                 <img src={item.shot}/>

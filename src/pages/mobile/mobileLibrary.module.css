@@ -1,0 +1,57 @@
+div#mobileLibrary_wrap{
+  width: 100%;
+  height: auto;
+  padding: 0 3% 0 3%;
+  box-sizing: border-box;
+}
+section#mobileLibrary{
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 10%;
+  box-sizing: border-box;
+  margin-bottom: 30vw;
+}
+h2#mobileLibrary_title{
+  position: absolute;
+  left: 0;
+  top: 0;
+  font: 700 4.5vw "Noto Sans KR";
+  color: #7B7B7B;
+}
+ul#mobileLibrary_list{
+  width: 100%;
+  height: auto;
+}
+ul#mobileLibrary_list>li{
+  width: 100%;
+  height: 20vw;
+  background-color: #F1F1F1;
+  border-radius: 3vw;
+  padding: 2vw;
+  box-sizing: border-box;
+  margin-bottom: 5vw;
+  position: relative;
+}
+div#mobileLibrary_img{
+  width: 16vw;
+  height: 16vw;
+  border-radius: 3vw;
+  background: #3D3D3D;
+  float: left;
+  margin-right: 5vw;
+}
+p#mobileLibrary_txt1{
+  font: 700 4vw/8vw "Noto Sans KR";
+}
+p#mobileLibrary_txt2{
+  font: 500 3.5vw/8vw "Noto Sans KR";
+  color: #8F8F8F;
+}
+ul#mobileLibrary_list>li>i{
+  position: absolute;
+  right: 5vw;
+  top: 50%;
+  margin-top: -4vw;
+  font-size: 8vw;
+}
