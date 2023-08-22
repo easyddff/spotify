@@ -15,7 +15,7 @@ export default function MobileFooter() {
       index:1,
       txt:'Search',
       icon:'fa-solid fa-magnifying-glass',
-      path:'/'
+      path:'/mobileSearch'
     },
     {
       index:2,

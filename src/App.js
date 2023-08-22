@@ -18,6 +18,7 @@ import MobileRoot from "./pages/mobile/MobileRoot";
 import MobileCharts from "./pages/mobile/MobileCharts";
 import Listen from "./pages/mobile/Listen";
 import { AuthContextProvider } from "./context/AuthContext";
+import MobileSearch from "./pages/mobile/MobileSearch";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         errorElement:<Notfound/>,
         children:[
           {index:true, element:<MobileHome/>},
+          {path:'/mobileSearch', element:<MobileSearch/>},
           {path:'/mobileCharts', element:<MobileCharts/>},
           {path:'/mobileCharts/:listen', element:<Listen/>},
         ]

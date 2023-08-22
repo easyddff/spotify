@@ -81,12 +81,16 @@ ul#bar_time>li{
 }
 ul#music_playAll{
   width: 100%;
-  height: 15vw;
+  height: 14vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 ul#music_playAll>li>i{
-  font-size: 8vw;
+  font-size: 7vw;
   color: white;
+}
+ul#music_playAll>li:nth-child(3)>i{
+  font-size: 14vw;
 }

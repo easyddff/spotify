@@ -47,6 +47,9 @@ p#artist_detail_txt1{
   font: 700 50px "Noto Sans KR";
   color:  white;
   margin-top: 80px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
 }
 p#artist_detail_txt2{
   font: 500 20px "Noto Sans KR";
@@ -167,11 +170,20 @@ section#artist_album{
   padding: 0 20px 0 20px;
   box-sizing: border-box;
   margin-bottom: 50px;
+  overflow: hidden;
+}
+p.artist_more{
+  font: 700 15px "Noto Sans KR";
+  color: #787878;
+  position: absolute;
+  top: 0;
+  right: 25px;
 }
 ul#artist_album_list{
   width: 100%;
   height: 200px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -180,6 +192,7 @@ ul#artist_album_list>li{
   height: 180px;
   margin-top: 50px;
   border-radius: 20px;
+  flex-shrink: 0;
   overflow: hidden;
 }
 ul#artist_album_list>li>img{
@@ -194,22 +207,26 @@ section#artist_live{
   margin-bottom: 50px;
   padding: 0 20px 0 20px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 ul#artist_live_list{
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 ul#artist_live_list>li{
   margin-top: 50px;
-  width: 30%;
+  width: 320px;
   height: 130px;
   background: #D9D9D9;
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 div.artist_live_date{
   width: 90px;
@@ -250,6 +267,17 @@ div#artist_recently_wrap{
 
 
 @media screen and (max-width:1400px) {
+  div#artist_detail_wrap{
+    width: 100%;
+  }
+  div#artist_detail_main_wrap{
+    width:calc(100% - 300px);
+  }
+  div#artist_detail_txt{
+    right: 1%;
+  }
+
+
   div.artist_track_imtext{
     width: 250px;
   }
@@ -258,6 +286,23 @@ div#artist_recently_wrap{
   }
   div.artist_track_btn{
     width: 280px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  section#artist_detail_main>img{
+    width: 180px;
+    height: 160px;
+    margin-top: -80px;
+  }
+  p#artist_detail_txt1{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:980px){
+  ul#artist_live_list{
+    justify-content: center;
   }
 }
 @media screen and (max-width:930px){

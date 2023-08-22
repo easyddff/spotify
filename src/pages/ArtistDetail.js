@@ -114,6 +114,7 @@ export default function ArtistDetail() {
 
               <section id={styles.artist_album}>
                 <h2 className={styles.artist_track_title}>{item.artistName}'s Album</h2>
+                <p className={styles.artist_more}>See All</p>
                 <ul id={styles.artist_album_list}>
                   <li><img src={item.shot}/></li>
                   <li><img src={item.shot}/></li>
@@ -125,6 +126,7 @@ export default function ArtistDetail() {
 
               <section id={styles.artist_live}>
                 <h2 className={styles.artist_track_title}>Live Schedule</h2>
+                <p className={styles.artist_more}>See All</p>
                 <ul id={styles.artist_live_list}>
                   <li>
                     <div className={styles.artist_live_date}>
