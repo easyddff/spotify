@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './mobileSearch.module.css'
 import MobileRecently from '../../component/mobileAll/recently/MobileRecently'
 import MobileAdvertise from '../../component/mobileAdvertise/MobileAdvertise'
+import { useLocation } from 'react-router-dom'
 
 export default function MobileSearch() {
 
@@ -31,6 +32,12 @@ export default function MobileSearch() {
       id:7, txt:'Pop', shot:'./images/charts_image/hot0.jpg'
     }
   ]
+
+  const {pathname} = useLocation()
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[pathname])
 
   return (
     <div id={styles.search_wrap}>

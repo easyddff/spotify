@@ -1,7 +1,10 @@
 import React from 'react'
 import styles from './sidebar.module.css'
 
-export default function Sidebar() {
+export default function Sidebar({onDarkIn}) {
+
+  const dark=onDarkIn
+
   return (
     <section id={styles.sidebar}>
       <h2 className='hidden'>Side</h2>
@@ -11,7 +14,8 @@ export default function Sidebar() {
               SEARCH
             </p>
             <form id={styles.search_form}>
-              <input type='text' id={styles.search_input}></input>
+              <input type='text' id={styles.search_input}
+              style={dark? ({color:'#414141'}):({color:'#d9d9d9'})}></input>
               <i className="fa-solid fa-magnifying-glass"></i>
             </form>
           </div>
@@ -21,7 +25,7 @@ export default function Sidebar() {
             <p className={styles.side_title}>MENU</p>
             <ul id={styles.side_menu_list}>
               <li className={styles.selected}><i className="fa-solid fa-earth-americas"></i>Exoplorer</li>
-              <li><i className="fa-brands fa-spotify"></i>Charts</li>
+              <li><i className="fa-brands fa-spotify"></i>Daily Mix</li>
               <li><i className="fa-solid fa-user"></i>Streaming</li>
               <li><i className="fa-solid fa-headphones"></i>Genres</li>
               <li><i className="fa-solid fa-podcast"></i>Live Event</li>

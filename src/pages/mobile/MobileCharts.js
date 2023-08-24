@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './mobileCharts.module.css'
 import useProducts from '../../hooks/useProducts'
 import MobileChartsAll from '../../component/mobileAll/mobileChartsAll/MobileChartsAll'
 import MobileAdvertise from '../../component/mobileAdvertise/MobileAdvertise'
 import HotMovie from '../../component/mobileAll/hotMovie/HotMovie'
 import MobileNewTrends from '../../component/mobileAll/mobileMainCharts/MobileNewTrends'
+import { useLocation } from 'react-router-dom'
 
 export default function MobileCharts() {
 
   // const [charts] = useProducts
+  const {pathname} = useLocation()
 
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[pathname])
   
   return (
     <div id={styles.mobileCharts_wrap}>

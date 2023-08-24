@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './mobileHome.module.css'
 
 // Import Swiper styles
@@ -14,6 +14,7 @@ import MobileNewTrends from '../../component/mobileAll/mobileMainCharts/MobileNe
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { useLocation } from 'react-router-dom';
 
 export default function MobileHome() {
 
@@ -24,6 +25,12 @@ export default function MobileHome() {
     {index:3, shot:'./images/mobile/main1.jpg'},
     {index:4, shot:'./images/mobile/main2.jpg'}
   ]
+
+  const {pathname} = useLocation()
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[pathname])
 
   return (
     <div id={styles.mobileHome_wrap}>

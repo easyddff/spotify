@@ -10,11 +10,14 @@ import Advertise from '../component/advertise/Advertise'
 import LiveEvent from '../component/liveEvent/LiveEvent'
 
 
-export default function Home() {
+export default function Home({onDark}) {
+
+  const dark=onDark
+
   return (
     <>
       <div id={styles.main_wrap}>
-        <Sidebar/>
+        <Sidebar onDarkIn={dark}/>
         <div id={styles.main_in}>
           <Mainvisual/>
           <TopArtist/>

@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './mobileLibrary.module.css'
+import { useLocation } from 'react-router-dom'
 
 export default function MobileLibrary() {
 
@@ -29,6 +30,12 @@ export default function MobileLibrary() {
       index:7, txt1:'Elec,Tobu', txt2:'auto play'
     },
   ]
+
+  const {pathname} = useLocation()
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[pathname])
 
   return (
     <div id={styles.mobileLibrary_wrap}>
