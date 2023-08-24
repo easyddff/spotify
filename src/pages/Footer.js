@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './footer.module.css'
 import { Link } from 'react-router-dom'
 
-export default function Footer() {
+export default function Footer({onDark}) {
 
   const snslogo=[
     {index:0, logo:"fa-brands fa-youtube"},
@@ -30,8 +30,11 @@ export default function Footer() {
     {index:3, path:'/info', name:'Contact Us2'}
   ]
 
+  const dark=onDark
+
   return (
-    <div id={styles.footer_wrap}>
+    <div id={styles.footer_wrap}
+    style={dark? ({backgroundColor:'#282828'}):({backgroundColor:'#F1F1F1'})}>
       <footer id={styles.foot}>
         <section id={styles.footer_top}>
           <h2 className='hidden'>Footer</h2>
@@ -50,21 +53,36 @@ export default function Footer() {
             
             {
               footerlist1.map((item)=>(
-                <li key={item.index}><Link to={item.path}>{item.name}</Link></li>
+                <li key={item.index}>
+                  <Link to={item.path}
+                  style={dark? ({color:'white'}):({color:'#7b7b7b'})}>
+                    {item.name}
+                  </Link>
+                </li>
               ))
             }
           </ul>
           <ul className={styles.footer_list}>
             {
               footerlist2.map((item)=>(
-                <li key={item.index}><Link to={item.path}>{item.name}</Link></li>
+                <li key={item.index}>
+                  <Link to={item.path}
+                  style={dark? ({color:'white'}):({color:'#7b7b7b'})}>
+                    {item.name}
+                  </Link>
+                </li>
               ))
             }
           </ul>
           <ul className={styles.footer_list}>
             {
               footerlist3.map((item)=>(
-                <li key={item.index}><Link to={item.path}>{item.name}</Link></li>
+                <li key={item.index}>
+                  <Link to={item.path}
+                  style={dark? ({color:'white'}):({color:'#7b7b7b'})}>
+                    {item.name}
+                  </Link>
+                </li>
               ))
             }
           </ul>

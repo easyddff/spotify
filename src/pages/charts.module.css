@@ -3,7 +3,7 @@ div#sub_wrap{
   min-height: 2000px;
   margin: 0 auto;
   display: flex;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 div#sub_side{
   width: 300px;

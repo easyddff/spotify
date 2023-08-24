@@ -58,7 +58,6 @@ export default function Mainvisual() {
   let nextIndex=null
   let currentIndex=0
   let selectedDot=null
-
   
   useEffect(()=>{
     for(const item of mainImg.current){

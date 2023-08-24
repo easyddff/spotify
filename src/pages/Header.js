@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './header.module.css'
 import { useAuthContext } from '../context/AuthContext'
 import { login, logout } from '../api/firebase'
+import { DarkModeContext } from '../component/context/DarkModeContext'
 
-export default function Header() {
+export default function Header({onDarkChange}) {
 
   const skip=[
     {index:0, path:'#', text:'메인바로가기'},
@@ -19,14 +20,18 @@ export default function Header() {
     {index:3, path:'/podcasts', name:'Podcasts'},
   ]
 
-
+  
   const [clickIndex, setClickIndex]=useState(null)
 
   const {user} = useAuthContext()
-  console.log(user)
+  
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)//DarkModeContext
+
+  onDarkChange(darkMode)
 
   return (
-    <div id={styles.header_wrap}>
+    <div id={styles.header_wrap}
+    style={darkMode? ({backgroundColor:'black'}):({backgroundColor:'white'})}>
       <ul className="skipmenu_list">
         {
           skip.map((item)=>(
@@ -47,7 +52,11 @@ export default function Header() {
                 <li key={item.index} 
                   onClick={()=>{setClickIndex(item.index)}}
                   className={`${item.index===clickIndex && styles.selected}`}>
-                  <Link to={item.path}>{item.name}</Link>
+                  <Link to={item.path}
+                  style={darkMode? ({color:'white'}):({color:'#707070'})}>
+                    {/* inline스타일이 최상위, select가 선택안됨 */}
+                    {item.name}
+                  </Link>
                 </li>
               ))
             }
@@ -71,7 +80,9 @@ export default function Header() {
 
             <button className={styles.setting} onClick={login}>Login</button>
           }
+          <button id={styles.darkModeBtn} onClick={toggleDarkMode}>{darkMode? 'Light' : 'Dark'}</button>
         </nav>
+        
       </header>
     </div>
   )

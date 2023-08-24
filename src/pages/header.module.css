@@ -52,7 +52,7 @@ ul#mainmenu_list li a{
 }
 ul#mainmenu_list>li.selected>a{
   font: 900 26px/145px "Noto Sans KR";
-  color: #1ED760;
+  color: #1ED760 !important;
   transition: 0.2s ease-out;
 }
 
@@ -91,6 +91,18 @@ button.setting{
   color: black;
   text-decoration: none;
 }
+button#darkModeBtn{
+  width: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: #D9D9D9;
+  font: 400 15px "Noto Sans KR";
+  /* margin-top: 53px; */
+}
+
+
+
 @media screen and (max-width:1400px){
   header#homeHeader{
     width: 100%;
@@ -107,6 +119,9 @@ button.setting{
     width: 50%;
   }
   button.setting{
+    width: 70px;
+  }
+  button#darkMode{
     width: 70px;
   }
 }
